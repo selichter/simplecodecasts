@@ -20,4 +20,6 @@ class Users::RegistrationsController < Devise::RegistrationsController
 			flash[:notice] = "Please select a membership plan to sign up."
 			redirect_to root_url
 	end
+
+	
 end
